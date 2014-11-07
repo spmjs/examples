@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "spm": {
+    "main": "index.js",
+    "output": [
+      "index.js",
+      "index.css",
+      "bg.png",
+      "index.html"
+    ],
+    "dependencies": {
+      "jquery": "1.10.1",
+      "underscore": "1.6.0",
+      "backbone": "1.1.2"
+    },
+    "buildArgs": "--include standalone"
+  }
+}
