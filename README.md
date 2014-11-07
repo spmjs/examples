@@ -15,6 +15,12 @@ $ npm install spm-server -g
 $ cd todo
 ```
 
+install dependencies
+
+```
+$ spm install
+```
+
 debug
 
 ```bash
