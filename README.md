@@ -2,12 +2,12 @@
 
 ## Install
 
-`spm-server` is for debug.
-
 ```bash
 $ npm install spm -g
 $ npm install spm-server -g
 ```
+
+`spm-server` is for debug.
 
 ## Usage
 
