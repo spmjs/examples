@@ -17,7 +17,7 @@ $ cd todo
 
 install dependencies
 
-```
+```bash
 $ spm install
 ```
 
