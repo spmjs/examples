@@ -1,0 +1,19 @@
+{
+  "name": "less-example",
+  "version": "0.1.0",
+  "spm": {
+    "output": [
+      "index.html",
+      "index.css"
+    ],
+    "scripts": {
+      "prebuild": "./node_modules/.bin/lessc index.less > index.css"
+    },
+    "dependencies": {
+      "normalize.css": "3.0.1"
+    }
+  },
+  "devDependencies": {
+    "less": "~2.2.0"
+  }
+}

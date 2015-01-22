@@ -1,6 +1,6 @@
 # Project Examples for SPM
 
-## Install
+## Prepare
 
 ```bash
 $ npm install spm -g
