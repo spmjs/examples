@@ -30,6 +30,9 @@ $ spm-server
 build
 
 ```bash
+# If you have node deps
+$ npm install
+
 $ spm build
 ```
 
