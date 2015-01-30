@@ -1,6 +1,4 @@
 {
-  "name": "todo",
-  "version": "0.1.0",
   "spm": {
     "dependencies": {
       "espresso.js": "0.0.1"
@@ -8,7 +6,8 @@
     "buildArgs": "--include standalone",
     "output": [
       "app.js",
-      "app.css"
+      "app.css",
+      "index.html"
     ]
   }
 }

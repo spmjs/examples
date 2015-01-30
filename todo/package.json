@@ -1,12 +1,9 @@
 {
-  "name": "todo",
-  "version": "1.0.0",
   "spm": {
     "main": "index.js",
     "output": [
       "index.js",
       "index.css",
-      "bg.png",
       "index.html"
     ],
     "dependencies": {
