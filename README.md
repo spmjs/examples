@@ -28,4 +28,5 @@ $ spm-server
 ## install node dependencies if have
 $ npm install
 $ spm build
+$ open dist/index.html
 ```
