@@ -1,4 +1,6 @@
-# Project Examples for SPM
+# Examples
+
+Project examples for SPM.
 
 ## Prepare
 
@@ -7,33 +9,23 @@ $ npm install spm -g
 $ npm install spm-server -g
 ```
 
-`spm-server` is for debug.
-
 ## Usage
 
+e.g. todo
+
 ```bash
+## enter directory
 $ cd todo
-```
 
-install dependencies
-
-```bash
+## install dependencies
 $ spm install
-```
+$ open http://127.0.0.1:8000/
 
-debug
-
-```bash
+## debug
 $ spm-server
-```
 
-build
-
-```bash
-# If you have node deps
+## build
+## install node dependencies if have
 $ npm install
-
 $ spm build
 ```
-
-Visit [spm-handbook](http://sorrycc.gitbooks.io/spm-handbook/content/) for more infomation.
