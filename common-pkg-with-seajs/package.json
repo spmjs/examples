@@ -1,0 +1,12 @@
+{
+  "spm": {
+    "output": [
+      "page-*.html",
+      "page-*.js"
+    ],
+    "buildArgs": "--sea relative --ignore jquery",
+    "dependencies": {
+      "jquery": "1.11.2"
+    }
+  }
+}
