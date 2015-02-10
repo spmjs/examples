@@ -5,13 +5,13 @@
       "index.css"
     ],
     "scripts": {
-      "prebuild": "./node_modules/.bin/lessc index.less > index.css"
+      "prebuild": "./node_modules/.bin/glob-less **/*.less"
     },
     "dependencies": {
       "normalize.css": "3.0.1"
     }
   },
   "devDependencies": {
-    "less": "~2.2.0"
+    "glob-less": "~0.1.0"
   }
 }
