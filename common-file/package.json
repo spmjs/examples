@@ -1,0 +1,13 @@
+{
+  "spm": {
+    "output": [
+      "page-*.js",
+      "page-*.html"
+    ],
+    "dependencies": {
+      "jquery": "1.11.2"
+    },
+    "buildArgs": "--standalone",
+    "common": true
+  }
+}
