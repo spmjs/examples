@@ -2,17 +2,14 @@
   "spm": {
     "output": [
       "index.html",
-      "index.js"
+      "index.coffee"
     ],
-    "scripts": {
-      "prebuild": "./node_modules/.bin/coffee -bc *.coffee"
-    },
     "dependencies": {
       "uuid": "1.4.1"
     },
     "buildArgs": "--standalone"
   },
-  "devDependencies": {
-    "coffee-script": "~1.9.0"
+  "dependencies": {
+    "coffee-loader": "~0.7.2"
   }
 }
