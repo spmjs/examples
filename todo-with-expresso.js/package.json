@@ -6,8 +6,8 @@
     "buildArgs": "--include standalone",
     "output": [
       "app.js",
-      "app.css",
       "index.html"
-    ]
+    ],
+    "extractCSS": true
   }
 }

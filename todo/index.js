@@ -1,3 +1,5 @@
+require('./index.css');
+
 window.jQuery = require('jquery'); // for backbone
 var Backbone = require('backbone');
 var app = require('./views/app');

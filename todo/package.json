@@ -3,9 +3,9 @@
     "main": "index.js",
     "output": [
       "index.js",
-      "index.css",
       "index.html"
     ],
+    "extractCSS": true,
     "dependencies": {
       "jquery": "1.10.1",
       "underscore": "1.6.0",

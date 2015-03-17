@@ -1,6 +1,8 @@
 // todomvc
 // https://github.com/tastejs/todomvc
 
+require('./app.css');
+
 var Espresso = require('espresso.js');
 
 var Model       = Espresso.Model

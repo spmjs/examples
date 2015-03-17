@@ -182,4 +182,4 @@ Backbone.sync = function(method, model, options) {
   return Backbone.getSyncMethod(model).apply(this, [method, model, options]);
 };
 
-return Backbone.LocalStorage;
+module.exports = Backbone.LocalStorage;
