@@ -4,10 +4,10 @@
       "page-*.html",
       "page-*.js"
     ],
-    "buildArgs": "--standalone --global jquery:jQuery",
-    "scripts": {
-      "postbuild": "cp jquery.js dist/jquery.js"
-    },
+    "buildArgs": "--standalone",
+    "vendor": [
+      "jquery"
+    ],
     "dependencies": {
       "jquery": "1.11.2"
     }
