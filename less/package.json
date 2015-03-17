@@ -2,16 +2,11 @@
   "spm": {
     "output": [
       "index.html",
-      "index.css"
+      "index.js"
     ],
-    "scripts": {
-      "prebuild": "./node_modules/.bin/glob-less **/*.less"
-    },
+    "extractCSS": true,
     "dependencies": {
       "normalize.css": "3.0.1"
     }
-  },
-  "devDependencies": {
-    "glob-less": "~0.1.0"
   }
 }
