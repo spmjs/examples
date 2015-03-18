@@ -1,5 +1,7 @@
 /** @jsx React.DOM */
 
+require('./index.css');
+
 var React = require('react');
 var Router = require('react-router');
 var { Route, RouteHandler, Link } = Router;
