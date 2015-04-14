@@ -4,10 +4,11 @@
       "page-*.html",
       "page-*.js"
     ],
-    "buildArgs": "--standalone",
-    "vendor": [
-      "jquery"
-    ],
+    "build": {
+      "vendor": [
+        "jquery"
+      ],
+    },
     "dependencies": {
       "jquery": "1.11.2"
     }

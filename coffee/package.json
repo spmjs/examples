@@ -6,8 +6,7 @@
     ],
     "dependencies": {
       "uuid": "1.4.1"
-    },
-    "buildArgs": "--standalone"
+    }
   },
   "dependencies": {
     "coffee-loader": "~0.7.2"

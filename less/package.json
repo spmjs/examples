@@ -4,7 +4,9 @@
       "index.html",
       "index.js"
     ],
-    "extractCSS": true,
+    "build": {
+      "extractCSS": true
+    },
     "dependencies": {
       "normalize.css": "3.0.1"
     }

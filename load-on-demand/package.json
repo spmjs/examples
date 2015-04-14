@@ -3,7 +3,6 @@
     "output": [
       "a.js",
       "a.html"
-    ],
-    "buildArgs": "--standalone"
+    ]
   }
 }

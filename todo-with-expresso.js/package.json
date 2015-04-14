@@ -3,11 +3,12 @@
     "dependencies": {
       "espresso.js": "0.0.1"
     },
-    "buildArgs": "--include standalone",
     "output": [
       "app.js",
       "index.html"
     ],
-    "extractCSS": true
+    "build": {
+      "extractCSS": true
+    }
   }
 }
