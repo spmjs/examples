@@ -1,0 +1,11 @@
+{
+  "spm": {
+    "output": [
+      "index.html",
+      "index.js"
+    ],
+    "build": {
+      "babel": true
+    }
+  }
+}

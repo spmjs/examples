@@ -30,7 +30,7 @@ $ open dist/index.html
 **语言类**
 - [应用 Coffee](./coffee)
 - [应用 Less](./less)
-- [应用 ES6](./babel)
+- [应用 ES6](./es6)
 
 **性能**
 - [公用文件](./common-file)
