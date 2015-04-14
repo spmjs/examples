@@ -1,0 +1,12 @@
+{
+  "spm": {
+    "output": [
+      "index.html", "index.js"
+    ],
+    "build": {
+      "loader": {
+        ".js": "+./loader"
+      }
+    }
+  }
+}
