@@ -21,8 +21,6 @@ $ spm server
 $ open http://127.0.0.1:8000/
 
 # !-- 3. build
-# install node dependencies if have
-$ npm install
 $ spm build
 $ open dist/index.html
 ```
