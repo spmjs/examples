@@ -1,31 +1,27 @@
 # Examples
 
-Project examples for SPM.
+Project examples for `spm@3.6` .
 
 ## Prepare
 
 ```bash
-$ npm install spm -g
-$ npm install spm-server -g
+$ npm install spm@ninja -g
 ```
+
+Make sure your spm version is 3.6.x .
 
 ## Usage
 
-e.g. todo
-
 ```bash
-## enter directory
-$ cd todo
+# !-- 1. enter directory
+$ cd react
 
-## install dependencies
-$ spm install
+# !-- 2. debug
+$ spm server
 $ open http://127.0.0.1:8000/
 
-## debug
-$ spm-server
-
-## build
-## install node dependencies if have
+# !-- 3. build
+# install node dependencies if have
 $ npm install
 $ spm build
 $ open dist/index.html
