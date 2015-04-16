@@ -1,7 +1,7 @@
 {
   "spm": {
     "output": [
-      "a.js",
+      "index.js",
       "index.html"
     ],
     "build": {

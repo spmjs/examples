@@ -43,6 +43,7 @@ $ open dist/index.html
 **其他**
 - [自定义 loader](./custom-loader)
 - [通过环境变量区分开发和线上模式](./define)
+- [对小于 10K 的图片和字体文件做 base64 转换](./base64)
 - [todo](./todo)
 - [todo with expresso](./todo-with-expresso)
 
