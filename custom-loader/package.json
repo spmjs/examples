@@ -5,8 +5,11 @@
     ],
     "build": {
       "loader": {
-        ".js": "+./loader"
-      }
+        ".js": "+./loader",
+        ".css": "+./loader"
+      },
+      "extractCSS": true,
+      "autoprefixer": true
     }
   }
 }
