@@ -9,7 +9,10 @@
       "react": "0.13.1"
     },
     "build": {
-      "extractCSS": true
+      "extractCSS": true,
+      "global": {
+        "react": "React"
+      }
     }
   }
 }
